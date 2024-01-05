@@ -31,7 +31,7 @@ RF24 radio(7, 8);
 
 void ResetData()
 {
-  // Define the inicial value of each data input.
+  // Define the initial value of each data input.
   // The middle position for Potenciometers. (254/2=127)
   data.throttle = 130; // Motor Stop
   data.pitch = 127;  // Center
